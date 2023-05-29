@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//¼Ó·¨º¯Êı¶¨Òå
+//åŠ æ³•å‡½æ•°å®šä¹‰
 int add(int num1,int num2)
 {
 	int sum = num1 + num2;
@@ -11,16 +11,17 @@ int main()
 {
 	int a = 10;
 	int b = 20;
-	//µ÷ÓÃaddº¯Êı
+	//è°ƒç”¨addå‡½æ•°
+	//a,bç§°ä¸ºå®é™…å‚æ•°ï¼Œç®€ç§°å®å‚
 	int c = add(a, b);
 	cout << "c= " << c << endl;
 
 	a = 40;
 	b = 20;
-	//µ÷ÓÃaddº¯Êı
+	//è°ƒç”¨addå‡½æ•°
 	c = add(a, b);
 	cout << "c= " << c << endl;
-	system("pause");//°´ÈÎÒâ¼ü¼ÌĞø
+	system("pause");//æŒ‰ä»»æ„é”®ç»§ç»­
 	return 0;
 
 }
