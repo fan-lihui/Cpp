@@ -1,6 +1,6 @@
 //#include<iostream>
 //using namespace std;
-////定义加法函数
+//鍑芥暟澹版槑
 //int add(int num1,int num2)
 //{
 //	int sum = num1 + num2;
