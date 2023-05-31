@@ -1,27 +1,26 @@
 #include<iostream>
 using namespace std;
-//åŠ æ³•å‡½æ•°å®šä¹‰
+//¼Ó·¨º¯Êı¶¨Òå
 int add(int num1,int num2)
 {
 	int sum = num1 + num2;
 	return sum;
 }
 
-int main()
+int main_add()
 {
 	int a = 10;
 	int b = 20;
-	//è°ƒç”¨addå‡½æ•°
-	//a,bç§°ä¸ºå®é™…å‚æ•°ï¼Œç®€ç§°å®å‚
+	//µ÷ÓÃaddº¯Êı
 	int c = add(a, b);
 	cout << "c= " << c << endl;
 
 	a = 40;
 	b = 20;
-	//è°ƒç”¨addå‡½æ•°
+	//µ÷ÓÃaddº¯Êı
 	c = add(a, b);
 	cout << "c= " << c << endl;
-	system("pause");//æŒ‰ä»»æ„é”®ç»§ç»­
+	system("pause");//°´ÈÎÒâ¼ü¼ÌĞø
 	return 0;
 
 }

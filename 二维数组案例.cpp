@@ -1,4 +1,4 @@
-//二维数组案例-考试成绩统计
+//二维数组案例-考试成绩统计1
 #include<iostream>
 using namespace std;
 //#include<string> //有的编译器使用string类需要加上头文件
